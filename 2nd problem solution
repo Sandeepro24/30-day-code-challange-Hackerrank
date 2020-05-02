@@ -1,0 +1,24 @@
+#include <iostream>
+#include <iomanip>
+#include <limits>
+
+using namespace std;
+
+int main() {
+    int i = 4;
+    double d = 4.0;
+    string s = "HackerRank ";
+  int a;
+  double b;
+  char c;
+      string s1;
+  cin>>a;
+  cin>>b;
+  cin>>c;
+  getline(cin,s1);
+  cout<<a+i<<endl;
+  cout<< setprecision(1) << std::fixed<<d+b<<endl;
+  //s.append(s1);
+  std::cout<<s+c+s1;
+
+    return 0;
